@@ -28,13 +28,15 @@ The source code and json files are contained in the root directory and subdirect
 **kiuwan-common Directory:** 
 The kiuwan-common directory contains code use by both tasks. Changes to files in this directory should be made with the intention of using the code for ALL tasks.
 
-**Prepackage Step:** 
+If you need to make changes any common code file, do so in the root `kiuwan-common` directory and then run the prepackage script.
+
+**Prepackage Script:** 
 The root package.json file contains a 'prepackage-script.js' file. You can execute this script with:
 `npm run prepacakge`
 
 You should run this before creating the vsix file.
 
-This script will clone all code inside `kiuwan-common` directory and files into the basline and delivery tasks, overwriting any files if they already exist.
+This script will clone the `kiuwan-common` directory and files into the basline and delivery tasks, overwriting any files if they already exist.
 
 This will also run `npm install` inside each task directory, ensuring each task's packages are installed.
 
