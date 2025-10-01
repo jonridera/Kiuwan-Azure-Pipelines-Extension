@@ -1,0 +1,17 @@
+*.bak
+.git
+*.vsix
+*.code-workspace
+settings.json
+*.taskkey
+*.zip
+*.txt
+.travis.yml
+
+.vscode/
+baseline-analysis-task/node_modules/
+baseline-analysis-task/kiuwan-common/
+delivery-analysis-task/node_modules/
+delivery-analysis-task/kiuwan-common/
+dist/
+

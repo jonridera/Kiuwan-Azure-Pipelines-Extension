@@ -1,0 +1,16 @@
+{
+  "name": "kiuwan-azure-devops-pipelines-extension",
+  "version": "3.0.0",
+  "description": "Kiuwan Azure DevOps Pipelines Extension",
+  "devDependencies": {
+    "fs-extra": "^11.3.2",
+    "tfx-cli": "^0.8.0"
+  },
+  "scripts": {
+    "prepackage": "node prepackage-script.js",
+    "package": "tfx extension create --manifest-globs vss-extension.json --output-path ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

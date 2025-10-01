@@ -1,0 +1,4 @@
+.vscode/
+*.log
+*.vsix
+build_archive/

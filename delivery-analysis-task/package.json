@@ -1,0 +1,29 @@
+{
+  "name": "delivery-analysis-task",
+  "version": "1.0.0",
+  "description": "Kiuwan Delivery Analysis Task for Azure DevOps",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kiuwan",
+    "azure-pipelines",
+    "delivery-analysis"
+  ],
+  "author": "Kiuwan",
+  "license": "ISC",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^4.0.0",
+    "azure-pipelines-tool-lib": "^2.0.10",
+    "properties-reader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.18",
+    "@types/q": "^1.5.2",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "baseline-analysis-task",
+  "version": "1.0.0",
+  "description": "Kiuwan baseline analysis task for Azure DevOps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "azure-devops",
+    "kiuwan",
+    "baseline-analysis"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "azure-pipelines-task-lib": "^4.0.0",
+    "azure-pipelines-tool-lib": "^2.0.10",
+    "properties-reader": "^2.0.0"
+  }
+}
