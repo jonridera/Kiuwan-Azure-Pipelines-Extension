@@ -1,5 +1,5 @@
 {
-    "id": "d7bb9083-9631-480b-8883-cc657cb015ca",
+    "id": "a6d3e4f1-2b5c-4d9a-8f7e-3c1b6a0d2e5f",
     "name": "kiuwan-delivery-analysis-task-v3",
     "friendlyName": "Kiuwan Delivery Analysis",
     "description": "Run a Kiuwan delivery Kiuwan analysis on the source code extracted by the build configuration. This task uses the proxy defined in the TFS/Azure Agent (if any).",
@@ -9,7 +9,7 @@
     "version": {
         "Major": 3,
         "Minor": 0,
-        "Patch": 0
+        "Patch": 101
     },
     "visibility": [
         "Build"

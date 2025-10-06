@@ -6,6 +6,7 @@ settings.json
 *.taskkey
 *.zip
 *.txt
+.DS_Store
 .travis.yml
 
 .vscode/

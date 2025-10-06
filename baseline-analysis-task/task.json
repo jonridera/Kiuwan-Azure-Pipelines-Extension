@@ -1,5 +1,5 @@
 {
-    "id": "2c800ace-4d05-4048-a1ff-d02c1060b1df",
+    "id": "f7b2c1d0-8e64-4f2a-9c3b-1a2d5e7f9b10",
     "name": "kiuwan-baseline-analysis-task",
     "friendlyName": "Kiuwan Baseline Analysis",
     "description": "Run a Kiuwan baseline Kiuwan analysis on the source code extracted by the build or release configuration. This task uses the proxy defined in the TFS/Azure Agent (if any).",
@@ -9,7 +9,7 @@
     "version": {
         "Major": 3,
         "Minor": 0,
-        "Patch": 0
+        "Patch": 101
     },
     "visibility": [
         "Build",

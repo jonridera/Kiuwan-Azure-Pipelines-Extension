@@ -2,7 +2,7 @@
  	"manifestVersion": 1,
 	"id": "kiuwan-azure-devops-pipeline-extension",
  	"publisher": "kiuwan-publisher",
- 	"version": "3.0.0",
+ 	"version": "3.0.104",
  	"name": "Kiuwan Azure DevOps Pipelines Extension",
  	"description": "Analyze your applications with Kiuwan in your build definitions. Find relevant security vulnerabilities in your code. Run automatic code security audits. Build secure applications from the start.",
  	"public": true,
@@ -68,7 +68,8 @@
     "scopes": [
         "vso.code",
         "vso.build",
-        "vso.test"
+        "vso.test",
+        "vso.serviceendpoint_manage"
     ],
  	"files": [
         {
@@ -121,7 +122,7 @@
                 "name": "Kiuwan",
                 "uri": "kiuwanTab.html",
                 "supportsTasks": [
-                    "2c800ace-4d05-4048-a1ff-d02c1060b1df"
+                    "f7b2c1d0-8e64-4f2a-9c3b-1a2d5e7f9b10"
                 ]
             }
         },
@@ -136,8 +137,8 @@
                 "name": "Kiuwan Summary",
                 "uri": "kiuwanSummary.html",
                 "supportsTasks": [
-                    "2c800ace-4d05-4048-a1ff-d02c1060b1df",
-                    "d7bb9083-9631-480b-8883-cc657cb015ca"
+                    "f7b2c1d0-8e64-4f2a-9c3b-1a2d5e7f9b10",
+                    "a6d3e4f1-2b5c-4d9a-8f7e-3c1b6a0d2e5f"
                 ],
                 "order": 20,
                 "height": 300
@@ -154,7 +155,7 @@
                 "name": "Kiuwan Audit",
                 "uri": "kiuwanAuditTab.html",
                 "supportsTasks": [
-                    "d7bb9083-9631-480b-8883-cc657cb015ca"
+                    "a6d3e4f1-2b5c-4d9a-8f7e-3c1b6a0d2e5f"
                 ]
             }
         },
